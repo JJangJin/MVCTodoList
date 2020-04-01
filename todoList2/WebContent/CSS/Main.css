@@ -1,0 +1,143 @@
+.mainPosition{
+    text-align: center;
+    width: 100%;
+
+}
+.listItem{
+    position: relative;
+    border: #cacaca solid 1px;
+    border-radius: 10px;
+    height: 120px;
+    width: 20%;
+    left: 40%;
+    display: block;
+    margin-bottom: 10px;
+}
+.listItem.hide{
+    display: none;
+}
+.listItem .listTitle{
+    position: absolute;
+    font-weight: bold;
+    left: 10px;
+    top: 10px;
+}
+.listItem .listProject{
+    position: absolute;
+    font-weight: bold;
+    left: 10px;
+    top: 30px;
+    font-size: 15px;
+    color: #999999;
+}
+.listItem .delIcon{
+    position: absolute;
+    top: 60px;
+    right: 50px;
+    width: 20px;
+    height: 20px;
+    content: url("../Image/deleteItem.png");
+    cursor: pointer;
+    user-select: none;
+}
+.listItem .editIcon{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    content: url("../Image/editImage.png");
+    cursor: pointer;
+    user-select: none;
+}
+.listItem .listBottomBtn{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 15px;
+    border: solid 1px;
+    color: #DB2828;
+    border-radius: 10px;
+    cursor: pointer;
+    user-select: none;
+}
+.listItem .listBottomBtn.complete{
+    cursor: not-allowed;
+    border: solid 1px;
+    color: #21BA45;
+}
+
+.addBtnDiv {
+    margin-top: 10px;
+    display: block;
+    user-select: none;
+}
+.addBtnDiv.hide{
+    display: none;
+}
+.addBtnDiv .addBtnImg{
+    width: 20px;
+    height: 20px;
+    content: url("../Image/addButton.png");
+    cursor: pointer;
+}
+
+.newItemTemplate{
+    border: #cacaca solid 1px;
+    border-radius: 10px;
+    height: 220px;
+    width: 20%;
+    margin-top: 10px;
+    position: relative;
+    display: none;
+}
+.newItemTemplate.show{
+    display: inline-block;
+}
+.newItemTemplate .newItemInputBtn{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+}
+.newItemTemplate .newItemInputBtn .newItemCreateInput{
+    color: #2185D0;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+.newItemTemplate .newItemInputBtn .newItemCancelInput{
+    color: #DB2828;
+    border: 1px solid;
+    border-radius: 10px;
+    width: 50%;
+    cursor: pointer;
+    user-select: none;
+}
+
+.editDiv {
+    position: relative;
+    border: #cacaca solid 1px;
+    border-radius: 10px;
+    height: 220px;
+    width: 20%;
+    left: 40%;
+    margin-top: 10px;
+    display:none;
+}
+.editDiv.show {
+    display:block;
+}
+.editDiv .editCloseBtn{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+    color: #2185D0;
+    cursor: pointer;
+    border: 1px solid;
+    border-radius: 10px;
+    user-select: none;
+}
+
